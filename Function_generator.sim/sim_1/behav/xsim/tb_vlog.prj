@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Function_generator.gen/sources_1/ip/blk_mem_gen_2/sim/blk_mem_gen_2.v" \
+"../../../../Function_generator.gen/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" \
+"../../../../Function_generator.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../Function_generator.srcs/sources_1/new/Func_gen_top.v" \
+"../../../../Function_generator.srcs/sources_1/new/Input_proc.v" \
+"../../../../Function_generator.srcs/sources_1/new/clkw_gen.v" \
+"../../../../Function_generator.srcs/sources_1/new/saww_gen.v" \
+"../../../../Function_generator.srcs/sources_1/imports/new/sin_gen.v" \
+"../../../../Function_generator.srcs/sources_1/new/triw_gen.v" \
+"../../../../Function_generator.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
