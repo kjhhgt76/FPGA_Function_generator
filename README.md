@@ -13,8 +13,11 @@ d.	Your design should be able to generate a saw tooth wave of a given period and
 
 # Component
 basys 3 FPGA board
+
 resistors
+
 breadboard
+
 oscilloscope
 
 # Final product
